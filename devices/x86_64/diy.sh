@@ -1,7 +1,7 @@
 #!/bin/bash
 
 rm -rf target/linux/x86
-svn co https://github.com/openwrt/openwrt/trunk/target/linux/x86
+svn co https://github.com/openwrt/openwrt/trunk/target/linux/x86 target/linux/x86
 
 sed -i 's/5.4/5.10/g' target/linux/x86/Makefile
 
